@@ -207,6 +207,8 @@ Confirmed setup with:
 
 * Configure access to NFS for clients within the same subnet. using vi editor,input my subnet IPv4 cidr.
 
+`sudo vi /etc/exports`
+
 ```
 
 /mnt/apps <Subnet-CIDR>(rw,sync,no_all_squash,no_root_squash)
